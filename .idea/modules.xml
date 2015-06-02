@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HeadFirst/HeadFirst.iml" filepath="$PROJECT_DIR$/HeadFirst/HeadFirst.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java2s/Java2s.iml" filepath="$PROJECT_DIR$/Java2s/Java2s.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java2s2/Java2s2.iml" filepath="$PROJECT_DIR$/Java2s2/Java2s2.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaCodeGeeks/JavaCodeGeeks.iml" filepath="$PROJECT_DIR$/JavaCodeGeeks/JavaCodeGeeks.iml" />
       <module fileurl="file://$PROJECT_DIR$/SourceMaking/SourceMaking.iml" filepath="$PROJECT_DIR$/SourceMaking/SourceMaking.iml" />
       <module fileurl="file://$PROJECT_DIR$/Strateges.iml" filepath="$PROJECT_DIR$/Strateges.iml" />
