@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>MathSubstract</OriginalElement>
+  <nodes>
+    <node x="362.0" y="102.0">MathAdd</node>
+    <node x="-248.0" y="-173.0">Java2sDemo</node>
+    <node x="181.0" y="102.0">MathMultiply</node>
+    <node x="181.0" y="0.0">MathAlgorithm</node>
+    <node x="0.0" y="102.0">MathSubstract</node>
+    <node x="-266.0" y="5.0">MathContext</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Java2sDemo" target="MathSubstract">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="MathContext" target="MathAlgorithm">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Java2sDemo" target="MathContext">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="MathAdd" target="MathAlgorithm">
+      <point x="0.0" y="-26.0" />
+      <point x="442.5" y="77.0" />
+      <point x="315.16666666666663" y="77.0" />
+      <point x="53.66666666666666" y="26.0" />
+    </edge>
+    <edge source="Java2sDemo" target="MathMultiply">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="MathMultiply" target="MathAlgorithm">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="Java2sDemo" target="MathAdd">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="MathSubstract" target="MathAlgorithm">
+      <point x="0.0" y="-26.0" />
+      <point x="80.5" y="77.0" />
+      <point x="207.83333333333334" y="77.0" />
+      <point x="-53.66666666666666" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="287.0" y="203.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

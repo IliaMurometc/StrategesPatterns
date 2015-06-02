@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>StrategyDemo</OriginalElement>
+  <nodes>
+    <node x="-328.0" y="-145.0">TemplateMethod1</node>
+    <node x="-574.0" y="-222.0">StrategyDemo</node>
+    <node x="-480.0" y="-145.0">TemplateMethod2</node>
+    <node x="-446.0" y="-65.0">Impl2</node>
+    <node x="-294.0" y="-65.0">Impl1</node>
+    <node x="-376.5" y="-225.0">Strategy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="TemplateMethod1" target="Strategy">
+      <point x="0.0" y="-15.0" />
+      <point x="-262.0" y="-170.0" />
+      <point x="-318.75" y="-170.0" />
+      <point x="19.25" y="15.0" />
+    </edge>
+    <edge source="TemplateMethod2" target="Strategy">
+      <point x="0.0" y="-15.0" />
+      <point x="-414.0" y="-170.0" />
+      <point x="-357.25" y="-170.0" />
+      <point x="-19.25" y="15.0" />
+    </edge>
+    <edge source="Impl2" target="TemplateMethod2">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="Impl1" target="TemplateMethod1">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="54.5" y="15.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.journaldev.design.strategy.ShoppingCartDemo</OriginalElement>
+  <nodes>
+    <node x="929.5" y="-59.5">com.journaldev.design.strategy.Item</node>
+    <node x="18.0" y="214.0">com.journaldev.design.strategy.PaymentStrategy</node>
+    <node x="236.0" y="191.5">com.journaldev.design.strategy.PaypalStrategy</node>
+    <node x="622.5" y="202.5">com.journaldev.design.strategy.ShoppingCartDemo</node>
+    <node x="595.5" y="-70.5">com.journaldev.design.strategy.ShoppingCart</node>
+    <node x="-19.5" y="-30.5">com.journaldev.design.strategy.CreditCardStrategy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.journaldev.design.strategy.PaypalStrategy" target="com.journaldev.design.strategy.PaymentStrategy">
+      <point x="-84.0" y="-0.0" />
+      <point x="62.0" y="-0.0" />
+    </edge>
+    <edge source="com.journaldev.design.strategy.CreditCardStrategy" target="com.journaldev.design.strategy.PaymentStrategy">
+      <point x="0.0" y="70.5" />
+      <point x="0.0" y="-26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="296.5" y="276.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

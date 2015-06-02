@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>head.first.MiniDuckSimulator1</OriginalElement>
+  <nodes>
+    <node x="966.5" y="-95.0">head.first.FlyRocketPowered</node>
+    <node x="-291.5" y="93.0">head.first.MuteQuack</node>
+    <node x="257.0" y="374.0">head.first.MallardDuck</node>
+    <node x="-23.0" y="174.0">head.first.ModelDuck</node>
+    <node x="-291.5" y="-147.0">head.first.Quack</node>
+    <node x="387.5" y="-241.0">head.first.MiniDuckSimulator</node>
+    <node x="778.5" y="-215.0">head.first.FlyWithWings</node>
+    <node x="161.0" y="96.5">head.first.Duck</node>
+    <node x="187.5" y="-241.0">head.first.MiniDuckSimulator1</node>
+    <node x="257.0" y="-26.0">head.first.RubberDuck</node>
+    <node x="497.0" y="-26.0">head.first.RedHeadDuck</node>
+    <node x="-91.5" y="-27.0">head.first.FakeQuack</node>
+    <node x="617.0" y="174.0">head.first.DecoyDuck</node>
+    <node x="781.0" y="-95.0">head.first.FlyBehavior</node>
+    <node x="781.0" y="25.0">head.first.FlyNoWay</node>
+    <node x="-491.5" y="-27.0">head.first.Squeak</node>
+    <node x="-291.5" y="-27.0">head.first.QuackBehavior</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="head.first.MuteQuack" target="head.first.QuackBehavior">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="head.first.FakeQuack" target="head.first.QuackBehavior">
+      <point x="-60.5" y="0.0" />
+      <point x="60.5" y="0.0" />
+    </edge>
+    <edge source="head.first.RubberDuck" target="head.first.Duck">
+      <point x="0.0" y="26.0" />
+      <point x="0.0" y="-103.5" />
+    </edge>
+    <edge source="head.first.FlyWithWings" target="head.first.FlyBehavior">
+      <point x="0.0" y="26.0" />
+      <point x="0.0" y="-26.0" />
+    </edge>
+    <edge source="head.first.Squeak" target="head.first.QuackBehavior">
+      <point x="60.5" y="0.0" />
+      <point x="-60.5" y="0.0" />
+    </edge>
+    <edge source="head.first.DecoyDuck" target="head.first.Duck">
+      <point x="-63.0" y="0.0" />
+      <point x="159.0" y="0.0" />
+    </edge>
+    <edge source="head.first.RedHeadDuck" target="head.first.Duck">
+      <point x="0.0" y="26.0" />
+      <point x="560.0" y="160.0" />
+      <point x="159.0" y="-40.0" />
+    </edge>
+    <edge source="head.first.ModelDuck" target="head.first.Duck">
+      <point x="63.0" y="0.0" />
+      <point x="-159.0" y="0.0" />
+    </edge>
+    <edge source="head.first.MallardDuck" target="head.first.Duck">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="103.5" />
+    </edge>
+    <edge source="head.first.Quack" target="head.first.QuackBehavior">
+      <point x="0.0" y="26.0" />
+      <point x="0.0" y="-26.0" />
+    </edge>
+    <edge source="head.first.FlyNoWay" target="head.first.FlyBehavior">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="head.first.FlyRocketPowered" target="head.first.FlyBehavior">
+      <point x="-65.5" y="0.0" />
+      <point x="51.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="390.0" y="74.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
