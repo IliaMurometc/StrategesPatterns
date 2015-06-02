@@ -1,7 +1,6 @@
 package com.journaldev.design.strategy;
 
 public class PaypalStrategy implements PaymentStrategy {
-
     private String emailId;
     private String password;
 
@@ -14,5 +13,4 @@ public class PaypalStrategy implements PaymentStrategy {
     public void pay(int amount) {
         System.out.println(amount + " paid using Paypal.");
     }
-
 }

@@ -5,8 +5,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ShoppingCart {
-
-    //List of items
     List<Item> items;
 
     public ShoppingCart(){
@@ -32,5 +30,6 @@ public class ShoppingCart {
     public void pay(PaymentStrategy paymentMethod){
         int amount = calculateTotal();
         paymentMethod.pay(amount);
+        this.items.clear();
     }
 }

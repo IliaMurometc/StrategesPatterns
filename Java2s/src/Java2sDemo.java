@@ -1,24 +1,28 @@
 interface MathAlgorithm {
     public int calculate(int num1, int num2);
 }
+
 class MathAdd implements MathAlgorithm{
     @Override
     public int calculate(int num1, int num2) {
         return num1 + num2;
     }
 }
+
 class MathSubstract implements MathAlgorithm{
     @Override
     public int calculate(int num1, int num2) {
         return num1 - num2;
     }
 }
+
 class MathMultiply implements MathAlgorithm{
     @Override
     public int calculate(int num1, int num2) {
         return num1 * num2;
     }
 }
+
 class MathContext {
     private MathAlgorithm algorithm;
 
@@ -30,6 +34,7 @@ class MathContext {
         return algorithm.calculate(num1, num2);
     }
 }
+
 public class Java2sDemo {
     public static void main(String[] args) {
         MathContext context = new MathContext(new MathAdd());

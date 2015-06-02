@@ -5,7 +5,8 @@ public abstract class Duck {
 	QuackBehavior quackBehavior;
  
 	public Duck() {
-	}
+
+    }
  
 	public void setFlyBehavior (FlyBehavior fb) {
 		flyBehavior = fb;
